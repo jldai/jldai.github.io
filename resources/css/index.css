@@ -1,12 +1,11 @@
 html,body {
     padding:0;
     margin:0;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* Navbar container */
 .navbar {
-    background-color: white !important;
+    background-color: white;
     position: fixed;
     top: 0;
     overflow: hidden;
@@ -30,27 +29,45 @@ html,body {
   }
   
   /* Add a background color to navbar links on hover */
-  .navbar a:hover, .dropdown:hover .dropbtn {
+  .navbar a:hover{
     background-color: rgb(65, 78, 69);
     color: white;
+  }
+
+  a:active {
+    text-decoration: underline;
   }
 
   a.home {
     color:  rgb(65, 78, 69);
   }
 
+ .header {
+  background-color: rgb(187, 218, 179);
+  margin: 0;
+  padding: 200px;
+  text-align: center;
+ }
 
   h1 {
     font-size: 3rem;
-    color: white;
-    font-family: 'Roboto Condensed'
+    color: rgb(29, 64, 42);
+    font-family: 'Montserrat Alternates';
+    margin-left: 100px;
+    margin-right: 100px;
   }
 
   h2 {
-    color: rgba(255, 255, 255, 0.9);
-    font-style: normal;
-    padding-left: 25px;
+    color: rgb(29, 64, 42);
+    font-size: 3rem;
+    font-family: 'Roboto Condensed';
+  }
+
+  h3 {
+    color: rgb(84, 84, 84);
     font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5rem;
+    font-style: thin;
   }
 
   .welcome {
@@ -60,18 +77,7 @@ html,body {
     justify-content: center;
     flex-wrap: wrap;
     gap: 3 em;
-    background: linear-gradient(
-        to right,  
-        rgb(65, 78, 69) 0% 25%, 
-        rgb(191, 238, 221) 100%
-        );
-    background-position: 0% 0%;
-    background-size: 200% 100%;
-    transition: background-position 1000ms ease;
-  }
-
-  .welcome:hover {
-    background-position: 100% 100%;
+    background: white
   }
 
   video {
@@ -79,6 +85,14 @@ html,body {
     width: 500px;
     height: auto;
     padding-right: 50px;
+  }
+
+  figcaption {
+    width: 500px;
+    text-align: center;
+    font-family: monospace;
+    font-size: .7rem;
+    color: rgb(179, 179, 179);
   }
 
 
@@ -89,18 +103,29 @@ html,body {
     margin-right: 100px;
   }
 
+  .button {
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.5rem;
+    font-family:'Roboto Condensed';
+    color: rgb(75, 80, 72);
+    margin-right: 25px;
+  }
+  
+  .button:hover {
+    text-decoration: underline;
+  }
+
+  /*
+
+  THIS IS THE OLD LINK STYLE
+
   .works {
     text-align: center;
     color: grey;
     font-size: 2rem;
     margin: 100px;
     padding: 0px;
-  }
-
-  h3 {
-    font-family: 'Roboto Condensed';
-    padding: 0;
-    margin: 0;
   }
 
   .image-container {
@@ -146,9 +171,10 @@ html,body {
   }
 
   h4 {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto Condensed';
     font-size: 30px;
   }
+  */
  
   footer {
     color: rgb(96, 96, 96);
@@ -156,3 +182,4 @@ html,body {
     font-family: 'Courier New', Courier, monospace;
     text-align: right;
   }
+
