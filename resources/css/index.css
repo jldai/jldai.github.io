@@ -65,11 +65,7 @@ html,body {
 
   h3 {
     color: rgb(84, 84, 84);
-<<<<<<< HEAD
     font-family: 'Space Mono', 'Courier New', Courier, monospace;
-=======
-    font-family: 'Courier New', Courier, monospace;
->>>>>>> main
     font-size: 1.5rem;
     font-style: thin;
   }
