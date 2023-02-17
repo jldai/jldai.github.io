@@ -27,7 +27,7 @@ html,body {
   .navbar .home {
     float: left;
   }
-  
+
   /* Add a background color to navbar links on hover */
   .navbar a:hover{
     background-color: rgb(65, 78, 69);
@@ -43,13 +43,12 @@ html,body {
   }
 
   .container {
-    padding-top:24px;
-    padding-bottom: 0px;
+    padding-top: 75px;
+    padding-bottom: 25px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
     gap: 3em;
-    margin: 2%;
   }
 
   h2 {
@@ -60,8 +59,7 @@ html,body {
   }
 
   .image {
-    width: 550px;
-    flex-grow:1;
+    width: 600px;
     opacity: 1;
     display: block;
     height: auto;
