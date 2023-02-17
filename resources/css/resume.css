@@ -52,7 +52,7 @@ html,body {
     background-color: rgb(187, 218, 179);
     color: rgb(29, 64, 42);
     padding: 50px;
-    height: 100vh;
+    height: 85vh;
     width: 25%;
     position: -webkit-sticky;
     position: sticky;
@@ -89,8 +89,8 @@ html,body {
   h1 {
     font-family: 'Montserrat Alternates';
     font-size: 4rem;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-top: 45px;
+    padding-bottom: 45px;
   }
 
   p, ul {
@@ -106,4 +106,8 @@ html,body {
   .article {
     padding-top: 10px;
     padding-bottom: 15px;
+  }
+
+  ul {
+    font-size: .9rem;
   }

@@ -1,0 +1,92 @@
+html,body {
+    padding:0;
+    margin:0;
+}
+
+/* Navbar container */
+.navbar {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    overflow: hidden;
+    font-family: Arial;
+    width: 100%;
+    z-index: 1;
+  }
+  
+  /* Links inside the navbar */
+  .navbar a {
+    float: right;
+    font-size: 16px;
+    color: grey;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  .navbar .home {
+    float: left;
+  }
+  
+  /* Add a background color to navbar links on hover */
+  .navbar a:hover{
+    background-color: rgb(65, 78, 69);
+    color: white;
+  }
+
+  a:active {
+    text-decoration: underline;
+  }
+
+  a.home {
+    color:  rgb(65, 78, 69);
+  }
+
+  .container {
+    padding-top:24px;
+    padding-bottom: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 3em;
+    margin: 2%;
+  }
+
+  h2 {
+    font-family: 'Space Mono';
+    font-size: 2rem;
+    color: white;
+    padding: 16px 32px;
+  }
+
+  .image {
+    width: 550px;
+    flex-grow:1;
+    opacity: 1;
+    display: block;
+    height: auto;
+    transition: 800ms ease;
+  }
+
+  .middle {
+    transition: opacity 800ms ease;
+    opacity: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    position: absolute;
+    text-align: center;
+  }
+
+  .child:hover .image {
+    filter: brightness(.2);
+  }
+
+  .child:hover .middle {
+    opacity: 1;
+  }
+
+  .child {
+    position: relative;
+  }
