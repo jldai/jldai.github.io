@@ -98,6 +98,7 @@ html,body {
 
   .child {
     position: relative;
+    padding: 3px;
   }
 
   a {

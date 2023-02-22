@@ -57,6 +57,7 @@ html,body {
     position: -webkit-sticky;
     position: sticky;
     top: 25px;
+    bottom: 0px;
   }
 
   .main {
